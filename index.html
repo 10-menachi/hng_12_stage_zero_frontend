@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Profile Card</title>
+  </head>
+  <body>
+    <div class="profile-card">
+      <div class="logo">
+        <img
+          src="https://ca.slack-edge.com/T086NG3N69Y-U08ASCJM57C-b5b2a5250c19-512"
+          alt="Profile Picture"
+          data-testid="profilePicture"
+        />
+      </div>
+
+      <p class="title">
+        <span data-testid="fullName">Christian Wamalwa</span>
+        <span data-testid="jobTitle">Software Engineer</span>
+      </p>
+
+      <div class="description" data-testid="shortBio">
+        I am a passionate and driven Software Engineer in his final year of his
+        Bachelor of Business Information Technology. I am also kind of self
+        taught and have a knack for creating beautiful web experiences for my
+        users.
+      </div>
+
+      <div class="location">
+        <span data-testid="currentLocation">Nairobi, Kenya</span>
+      </div>
+
+      <div class="time" data-testid="currentTimeUTC"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
